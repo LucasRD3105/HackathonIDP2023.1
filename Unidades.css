@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(Group\ 43.png);
+    background-size: cover;
+}
+
+#fundo1 {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 180px;
+    width: 1500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+#fundo2 {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 180px;
+    width: 1500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.botao {
+    width: 289px;
+    height: 61px;
+    background-color: #FF8F28;
+    border: none;
+    margin-top: 60px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #e6750c;
+}
+
+.botao:active {
+    background-color: #e6750c;
+    opacity: 0.8;
+}
+
+.ajusteMargem {
+    margin: 0px;
+}
+
+#tituloUnidade {
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+}
+
+#endereco {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+}
+
+#horario {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+
+.ajusteLogo {
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 130px;
+    height: 130px;
+}
+
+#ajusteTexto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    margin-right: 65px;
+}
+
+#ajusteBotaoInicio {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+#botaoInicio {
+    width: 306.67px;
+    height: 69.02px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 49.3033px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#botaoInicio:hover {
+    background: white;
+}
+
+#botaoInicio:active {
+    background: white;
+    opacity: 0.8;
+}

@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(fundo\ login.avif);
+    background-size: cover;
+}
+
+#caixaPrincipal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgb(255, 249, 223), white, rgb(255, 249, 223));
+    height: 380px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+#tituloLogin {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#tituloLogin p {
+    cursor: pointer;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.ajusteBarra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ajuste2Barra {
+    margin-top: 25px;
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 15px;
+    font-family: 'Exo 2', sans-serif;
+    border-radius: 5px;
+    background-color: rgb(177, 177, 177);
+    border: none;
+    font-size: 15px;
+    outline: none;
+    font-weight: bold;
+}
+
+.ajusteTextosLogin {
+    margin-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#ajusteManter-seConectado {
+    display: flex;
+    flex-direction: row;
+}
+
+#ajusteTextoManter-se {
+    margin-left: 45px;
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 17px;
+    margin-right: 5px;
+}
+
+#checkbox {
+    margin-top: 7px;
+}
+
+#ajusteBotaoLogar {
+    display: flex;
+    justify-content: center;
+}
+
+#botaoLogar {
+    margin-top: 5px;
+    width: 310px;
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(253, 172, 66);
+    font-family: 'Exo 2', sans-serif;
+    transition: all 0.2s;
+}
+
+#botaoLogar:hover {
+    background-color: rgb(253, 172, 66);
+    color: white;
+}
+
+#botaoLogar:active {
+    background-color: rgb(253, 172, 66);
+    color: white;
+    opacity: 0.7;
+}
+
+#ajusteNaoTenhoConta {
+    display: flex;
+    justify-content: center;
+    font-family: 'Exo 2', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#textDecoration {
+    text-decoration: none;
+    color: inherit;
+}
